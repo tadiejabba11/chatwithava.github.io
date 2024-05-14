@@ -10,35 +10,40 @@
 
     <title>Hello, world!</title>
     <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
-    <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js">
+
+    </script>
     <df-messenger
-      project-id="fyp1-421308"
-      agent-id="3dc308ca-097f-401d-9f8b-a33b500583ea"
-      language-code="en"
-      max-query-length="-1">
-      <df-messenger-chat
-       chat-title="">
-      </df-messenger-chat>
-    </df-messenger>
+    project-id="fyp1-421308"
+    agent-id="3dc308ca-097f-401d-9f8b-a33b500583ea"
+    language-code="en"
+    max-query-length="-1">
+    <df-messenger-chat
+     chat-title="">
+    </df-messenger-chat>
+  </df-messenger>
     <style>
       df-messenger {
         z-index: 999;
         position: fixed;
+        --df-messenger-chat-header-background:rgb(35, 54,22);
+        --df-messenger-chat-bubble-background:rgb(35, 54,22);
+        --df-messenger-chat-bubble-color:white;
         --df-messenger-font-color: #000;
         --df-messenger-font-family: Google Sans;
         --df-messenger-chat-background: #f3f6fc;
         --df-messenger-message-user-background: #d3e3fd;
-        --df-messenger-message-bot-background: #fff;
-        bottom: 0;
-        right: 0;
-        top: 0;
-        width: 350px;
+        --df-messenger-message-user-font-color:rgb(35, 54,22) ;
+        --df-messenger-message-bot-background: rgb(35, 54,22);
+        --df-messenger-message-bot-font-color: white;
+        bottom: -16px;
+        right: 16px;
   }
     </style>
-
-
-    
     <style>
+    
+  
+  
   
 
 nav{
@@ -93,6 +98,12 @@ padding: 0%;
   font-size: 40px;
   padding-top: 20px;
 }
+ul li{
+  margin-bottom: 10px;
+}
+.Avaaaa p{
+  padding:20px;font-size: 22px;
+}
 
     </style>
   </head>
@@ -127,7 +138,7 @@ padding: 0%;
       </section>
   
 <section class = "about" >
-  <div class="intro" style="margin:70px 25%; padding:20px;width:50%; font-size: 20px;">
+  <div class="intro" style="margin:70px 25%; padding:20px;width:50%; font-size: 22px;">
   Welcome to NextGen Bank, where innovation meets prosperity!
    We are dedicated to redefining banking for the modern era, offering cutting-edge financial solutions tailored to your needs. 
   At NextGen Bank, we believe in fostering meaningful connections and empowering our customers to achieve their financial goals.
@@ -224,14 +235,46 @@ padding: 0%;
        
   </div>
 </div>
+
+<div class="Avaaaa" style="margin:70px;">
+
+  <h1 style="text-align: center;">💬 Chat with Ava, Your Virtual Assistant! 💬</h2>
+  <p> Introducing Ava, our dedicated chatbot, designed to make your life easier by providing instant support for a wide range of inquiries and issues.
+   
+    <ul style="font-size: 22px; list-style-image: url(ticks.png);align-items: center; list-style-position: inside;">
+      Ava can assist you with:
+      <li >Airtime issues</li>
+      <li>ZIPIT issues</li>
+      <li>Online subscriptions</li>
+      <li>ZESA issues</li>
+      <li>Loans </li>
+      <li>General inquiries</li>
+    </ul>
+  
+  <p>Ava is here to ensure you get the help you need, whenever you need it. 
+    Start chatting with Ava today and discover the ease of 24/7 personalized assistance.</p>
+  </body>
+
+  
+</p>
+ </div>
+
+ <div>
+  <h1</h1>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14981.101162887066!2d28.6404772!3d-20.1642602!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1eb553660e6f6749%3A0x5d1e3dda4713d47!2sNational%20University%20of%20Science%20and%20Technology%2C%20Zimbabwe!5e0!3m2!1sen!2szw!4v1715524598433!5m2!1sen!2szw" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ </div>
 </section>
   </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
 
+      
+    </script>
+  
+      
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
